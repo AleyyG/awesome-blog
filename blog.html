@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Awesome Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="h-100 d-flex flex-column">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: var(--primary-color);">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa-solid fa-house"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbar-mobile">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-mobile">
+                <ul class="navbar-nav me-auto ">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link active">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input type="search" class="form-control me-2" placeholder="Search">
+                    <button class="btn btn-warning" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-3 order-lg-1 order-sm-2">
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-action"> <a href="index.html" style="text-decoration: none;" class="text-secondary">Category 1</a></li>
+                        <li class="list-group-item list-group-item-action"> <a href="index.html" style="text-decoration: none;" class="text-secondary">Category 2</a></li>
+                        <li class="list-group-item list-group-item-action"> <a href="index.html" style="text-decoration: none;" class="text-secondary">Category 3</a></li>
+                      </ul>
+                </div>
+                <div class="col-md-9 order-lg-2 order-sm-1">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                          <li class="breadcrumb-item active">Blog</li>
+                        </ol>
+                    </nav>
+                    <div class="card rounded-3 mb-3">
+                        <div class="row">
+                            <div class="col-4">
+                                <img class="card-img-top"src="img/7.jpeg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, animi?</p>
+                                    <span class="text-secondary">Last updated 8 minutes ago.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-3 mb-3">
+                        <div class="row">
+                            <div class="col-4">
+                                <img class="card-img-top"src="img/6.jpeg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, animi?</p>
+                                    <span class="text-secondary">Last updated 8 minutes ago.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-3 mb-3">
+                        <div class="row">
+                            <div class="col-4">
+                                <img class="card-img-top"src="img/5.jpeg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, animi?</p>
+                                    <span class="text-secondary">Last updated 8 minutes ago.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-3 mb-3">
+                        <div class="row">
+                            <div class="col-4">
+                                <img class="card-img-top"src="img/4.jpeg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, animi?</p>
+                                    <span class="text-secondary">Last updated 8 minutes ago.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <ul class="pagination">
+                            <li class="page-item disabled"><a class="page-link">Previous</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer class="py-5 mt-4 text-center text-white mt-auto" style="background-color: var(--primary-color);">
+        <div class="container">
+            <span>All Rights Reserved &copy; 2025</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
